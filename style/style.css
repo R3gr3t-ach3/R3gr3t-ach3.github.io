@@ -717,135 +717,79 @@ a {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #011627;
-  color: #d6deeb;
+  background: #fff;
+  color: #000;
 }
-.hljs-keyword {
-  color: #c792ea;
-  font-style: italic;
+.xml .hljs-meta {
+  color: #c0c0c0;
 }
-.hljs-built_in {
-  color: #addb67;
-  font-style: italic;
-}
-.hljs-type {
-  color: #82aaff;
-}
-.hljs-literal {
-  color: #ff5874;
-}
-.hljs-number {
-  color: #f78c6c;
-}
-.hljs-regexp {
-  color: #5ca7e4;
-}
-.hljs-string {
-  color: #ecc48d;
-}
-.hljs-subst {
-  color: #d3423e;
-}
-.hljs-symbol {
-  color: #82aaff;
-}
-.hljs-class {
-  color: #ffcb8b;
-}
-.hljs-function {
-  color: #82aaff;
-}
-.hljs-title {
-  color: #dcdcaa;
-  font-style: italic;
-}
-.hljs-params {
-  color: #7fdbca;
-}
-.hljs-comment {
-  color: #637777;
-  font-style: italic;
-}
-.hljs-doctag {
-  color: #7fdbca;
-}
-.hljs-meta {
-  color: #82aaff;
-}
-.hljs-meta-keyword {
-  color: #82aaff;
-}
-.hljs-meta-string {
-  color: #ecc48d;
-}
-.hljs-section {
-  color: #82b1ff;
+.hljs-comment,
+.hljs-quote {
+  color: #007400;
 }
 .hljs-tag,
-.hljs-name,
-.hljs-builtin-name {
-  color: #7fdbca;
+.hljs-attribute,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name {
+  color: #aa0d91;
+}
+.hljs-variable,
+.hljs-template-variable {
+  color: #3f6e74;
+}
+.hljs-code,
+.hljs-string,
+.hljs-meta-string {
+  color: #c41a16;
+}
+.hljs-regexp,
+.hljs-link {
+  color: #0e0eff;
+}
+.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number {
+  color: #1c00cf;
+}
+.hljs-section,
+.hljs-meta {
+  color: #643820;
+}
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #5c2699;
 }
 .hljs-attr {
-  color: #7fdbca;
+  color: #836c28;
 }
-.hljs-attribute {
-  color: #80cbc4;
-}
-.hljs-variable {
-  color: #addb67;
-}
-.hljs-bullet {
-  color: #d9f5dd;
-}
-.hljs-code {
-  color: #80cbc4;
-}
-.hljs-emphasis {
-  color: #c792ea;
-  font-style: italic;
-}
-.hljs-strong {
-  color: #addb67;
-  font-weight: bold;
+.hljs-subst {
+  color: #000;
 }
 .hljs-formula {
-  color: #c792ea;
-}
-.hljs-link {
-  color: #ff869a;
-}
-.hljs-quote {
-  color: #697098;
+  background-color: #eee;
   font-style: italic;
-}
-.hljs-selector-tag {
-  color: #ff6363;
-}
-.hljs-selector-id {
-  color: #fad430;
-}
-.hljs-selector-class {
-  color: #addb67;
-  font-style: italic;
-}
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-  color: #c792ea;
-  font-style: italic;
-}
-.hljs-template-tag {
-  color: #c792ea;
-}
-.hljs-template-variable {
-  color: #addb67;
 }
 .hljs-addition {
-  color: #addb67;
-  font-style: italic;
+  background-color: #baeeba;
 }
 .hljs-deletion {
-  color: rgba(239,83,80,0.565);
+  background-color: #ffc8bd;
+}
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9b703f;
+}
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+.hljs-emphasis {
   font-style: italic;
 }
 @media only screen and (max-width: 2460px), only screen and (max-device-width: 2460px) {
